@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class Tutor(models.Model):
@@ -13,6 +14,10 @@ class Tutor(models.Model):
 class Log(models.Model):
     tutor = models.ForeignKey(Tutor)
     date = models.DateTimeField()
-    hours_worked = models.CharField(
-        max_length=4
-    )
+    hours_worked = models.DecimalField(
+            decimal_places=1,
+            validators=[
+                MaxValueValidator(10),
+                MinValueValidator(0.5)
+            ]
+        )
