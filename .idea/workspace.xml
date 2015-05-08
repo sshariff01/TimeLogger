@@ -4,7 +4,8 @@
     <list default="true" id="13c22570-ebe3-42cc-90bf-719bc72ae169" name="Default" comment="" />
     <ignored path="logger.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/settings.py" changelist="13c22570-ebe3-42cc-90bf-719bc72ae169" time="1431103878926" ignored="false" />
+    <file path="/settings.py" changelist="13c22570-ebe3-42cc-90bf-719bc72ae169" time="1431104707708" ignored="false" />
+    <file path="/models.py" changelist="13c22570-ebe3-42cc-90bf-719bc72ae169" time="1431104673726" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,16 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logger/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="16" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.456">
+            <state line="38" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,6 +53,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/logs/models.py" />
         <option value="$PROJECT_DIR$/logger/settings.py" />
       </list>
     </option>
@@ -94,6 +105,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -263,9 +288,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/logs/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/logger/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="16" selection-start="1633" selection-end="1633" vertical-scroll-proportion="0.456">
+        <state line="38" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.288">
           <folding />
         </state>
       </provider>
