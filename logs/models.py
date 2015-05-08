@@ -16,6 +16,7 @@ class Log(models.Model):
     date = models.DateTimeField()
     hours_worked = models.DecimalField(
             decimal_places=1,
+            max_digits=4,
             validators=[
                 MaxValueValidator(10),
                 MinValueValidator(0.5)
