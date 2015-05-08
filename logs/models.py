@@ -20,5 +20,6 @@ class Log(models.Model):
             validators=[
                 MaxValueValidator(10),
                 MinValueValidator(0.5)
-            ]
+            ],
+            default=0
         )
