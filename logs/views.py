@@ -26,7 +26,6 @@ def record(request):
             tutor = Tutor.objects.get(name=request.POST['name'])
 
             form = LogForm(request.POST)
-
             if form.is_valid():
                 log = Log.objects.create(
                     tutor=tutor,
@@ -37,6 +36,9 @@ def record(request):
                     hours_worked=request.POST['hours_worked']
                 )
                 log.save()
+                success = True
+                form = LogForm()
+                return render(request, 'home.html', {'form': form, 'errors': errors, 'success': success})
             else:
                 return render(request, 'home.html', {'form': form, 'errors': errors})
 
